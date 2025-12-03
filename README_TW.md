@@ -22,7 +22,7 @@ MeiGen-AI 的 InfiniteTalk 和 MultiTalk 模型的生產級部署方案，具有
 
 ```bash
 # 克隆倉庫
-git clone https://github.com/yourusername/infinitetalk-deployment.git
+git clone https://github.com/neosun100/infinitetalk-deployment.git
 cd infinitetalk-deployment
 
 # 使用 Docker 啟動
@@ -101,7 +101,7 @@ python app.py
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/infinitetalk-deployment&type=Date)](https://star-history.com/#yourusername/infinitetalk-deployment)
+[![Star History Chart](https://api.star-history.com/svg?repos=neosun100/infinitetalk-deployment&type=Date)](https://star-history.com/#neosun100/infinitetalk-deployment)
 
 ## 📱 關注公眾號
 

@@ -37,7 +37,7 @@ A production-ready deployment solution for MeiGen-AI's InfiniteTalk and MultiTal
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/infinitetalk-deployment.git
+git clone https://github.com/neosun100/infinitetalk-deployment.git
 cd infinitetalk-deployment
 
 # Start with Docker
@@ -326,7 +326,7 @@ The InfiniteTalk and MultiTalk models are licensed by MeiGen-AI under Apache 2.0
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/infinitetalk-deployment&type=Date)](https://star-history.com/#yourusername/infinitetalk-deployment)
+[![Star History Chart](https://api.star-history.com/svg?repos=neosun100/infinitetalk-deployment&type=Date)](https://star-history.com/#neosun100/infinitetalk-deployment)
 
 ## 📱 Follow Us
 

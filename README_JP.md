@@ -22,7 +22,7 @@ MeiGen-AIのInfiniteTalkとMultiTalkモデルのプロダクショングレー�
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/yourusername/infinitetalk-deployment.git
+git clone https://github.com/neosun100/infinitetalk-deployment.git
 cd infinitetalk-deployment
 
 # Dockerで起動
@@ -101,7 +101,7 @@ python app.py
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/infinitetalk-deployment&type=Date)](https://star-history.com/#yourusername/infinitetalk-deployment)
+[![Star History Chart](https://api.star-history.com/svg?repos=neosun100/infinitetalk-deployment&type=Date)](https://star-history.com/#neosun100/infinitetalk-deployment)
 
 ## 📱 公式アカウントをフォロー
 
