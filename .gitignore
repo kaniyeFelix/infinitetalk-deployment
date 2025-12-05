@@ -63,3 +63,10 @@ Thumbs.db
 
 # Scripts output
 *.sh.log
+
+# Backup files
+*.bak
+*.backup
+
+# Test outputs
+test_output/

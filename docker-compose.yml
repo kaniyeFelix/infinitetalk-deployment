@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  infinitetalk:
+    build: .
+    image: infinitetalk:latest
+    container_name: infinitetalk
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:${PORT:-7860}:7860"
+    volumes:
+      - ./models:/app/models
+      - /tmp/infinitetalk_uploads:/tmp/infinitetalk_uploads
+      - /tmp/infinitetalk_results:/tmp/infinitetalk_results
+    environment:
+      - GPU_IDLE_TIMEOUT=${GPU_IDLE_TIMEOUT:-60}
+      - NVIDIA_VISIBLE_DEVICES=${NVIDIA_VISIBLE_DEVICES:-0}
+      - CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['${NVIDIA_VISIBLE_DEVICES:-0}']
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

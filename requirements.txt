@@ -1,0 +1,14 @@
+gradio==6.0.2
+torch>=2.0.0
+diffusers
+transformers
+accelerate
+safetensors
+flask
+flask-cors
+flasgger
+fastmcp
+pillow
+opencv-python
+numpy
+scipy
